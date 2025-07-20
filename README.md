@@ -1,6 +1,6 @@
-# $\mu$Ceiver-Fi: Exploiting Spectrum Resources of Multi-link Receiver for Fine-Granularity Wi-Fi Sensing
+# μCeiver-Fi: Exploiting Spectrum Resources of Multi-link Receiver for Fine-Granularity Wi-Fi Sensing
 
-Welcome to $\mu$Ceiver-Fi. This repository contains the resource code to implement $\mu$Ceiver-Fi system.
+Welcome to μCeiver-Fi. This repository contains the resource code to implement $\mu$Ceiver-Fi system.
 
 
 ## Contents
@@ -33,11 +33,11 @@ MATLAB R2023b
 
 ### Install
 
-1. Download the [Source Code]() and [Dataset](https://zenodo.org/records/16209360).
+1. Download the [Source Code](https://github.com/OpenCode666/muCeiver-Fi) and [Dataset](https://zenodo.org/records/16209360).
 
 2. Install Python: Please ensure Python 3.8.16 is installed on your computer. You can also download the Python source from the [official website](https://www.python.org/).
 
-3. Set Up Virtual Environment: It is recommended to set up a virtual environment to ensure a clean and isolated environment for $\mu$Ceiver-Fi implementation. Tools like **conda** can be used for this purpose. Make sure to activate your virtual environment before proceeding.
+3. Set Up Virtual Environment: It is recommended to set up a virtual environment to ensure a clean and isolated environment for μCeiver-Fi implementation. Tools like **conda** can be used for this purpose. Make sure to activate your virtual environment before proceeding.
 
 4. Install the necessary packages: We provide the requirements.txt in source code. You can install them by ```pip install -r requirements.txt```.
 
@@ -84,5 +84,5 @@ MATLAB R2023b
 
 2. Expected results
 
-- The Keypoint Average Localization Error is approximately 5 cm, and the visualizations of six typical poses, including ```Walking```, ```Pointing```, ```Hands up```, ```Hands open```, ```Sitting down```, and ```Standing```, are accurately rendered, which together indicate minimal distortion in human pose estimation and demonstrate satisfactory performance of our $\mu$Ceiver-Fi.
-Furthermore, considering that the typical distance between the head and neck is about 15 cm, the system’s ability to accurately distinguish these keypoints suggests that our $\mu$Ceiver-Fi achieves GHz-level range resolution.
+- The Keypoint Average Localization Error is approximately 5 cm, and the visualizations of six typical poses, including ```Walking```, ```Pointing```, ```Hands up```, ```Hands open```, ```Sitting down```, and ```Standing```, are accurately rendered, which together indicate minimal distortion in human pose estimation and demonstrate satisfactory performance of our μCeiver-Fi.
+Furthermore, considering that the typical distance between the head and neck is about 15 cm, the system’s ability to accurately distinguish these keypoints suggests that our μCeiver-Fi achieves GHz-level range resolution.
