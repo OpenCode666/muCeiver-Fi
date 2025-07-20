@@ -1,18 +1,21 @@
 # μCeiver-Fi: Exploiting Spectrum Resources of Multi-link Receiver for Fine-Granularity Wi-Fi Sensing
 
-Welcome to μCeiver-Fi. This repository contains the resource code to implement $\mu$Ceiver-Fi system.
+Welcome to μCeiver-Fi. This repository contains the resource code to implement μCeiver-Fi system.
 
 
 ## Contents
 [Introduction](#introduction)
+
 [Getting Started](#getting-started)
+
 [Workflow](#workflow)
+
 [Evaluation](#evaluation)
 
 
 ## Introduction
 
-$\mu$Ceiver-Fi is a framework that relies solely on a commodity multi-link receiver to leverage spectrum resources for Wi-Fi 3D human pose estimation.
+μCeiver-Fi is a framework that relies solely on a commodity multi-link receiver to leverage spectrum resources for Wi-Fi 3D human pose estimation.
 
 
 ## Getting Started
