@@ -37,7 +37,7 @@ MATLAB R2023b
 
 2. Install Python: Please ensure Python 3.8.16 is installed on your computer. You can also download the Python source from the [official website](https://www.python.org/).
 
-3. Set Up Virtual Environment: It is recommended to set up a virtual environment to ensure a clean and isolated environment for P2C implementation. Tools like **conda** can be used for this purpose. Make sure to activate your virtual environment before proceeding.
+3. Set Up Virtual Environment: It is recommended to set up a virtual environment to ensure a clean and isolated environment for $\mu$Ceiver-Fi implementation. Tools like **conda** can be used for this purpose. Make sure to activate your virtual environment before proceeding.
 
 4. Install the necessary packages: We provide the requirements.txt in source code. You can install them by ```pip install -r requirements.txt```.
 
@@ -49,7 +49,7 @@ MATLAB R2023b
 
 - Open ```mian.py``` in the source code, and change the path in line 21 to the folder path of the Dataset. This folder contains multi-link receiver signals and their corresponding labels.
 
-- Run ```main.py```, which will create the directory ```./experiments/deterministic```, then save the prediction results as ```./training/predictions/pre_result.mat``` and save the model as ```./checkpoints/model_epochn.pth```.
+- Run ```main.py```, which will create the directory ```./experiments```, then save the prediction results as ```./deterministic/training/predictions/pre_result.mat``` and save the model as ```./deterministic/checkpoints/model_epochn.pth```.
 
 - File ```args_det.py``` contains the neural network's training parameters. Based on our tests, the current parameters achieve satisfactory results. Users can modify them as needed, since our model demonstrates strong robustness.
 
@@ -61,7 +61,7 @@ MATLAB R2023b
 
 - Run ```post_proc.m```, which will print the Keypoint Average Localization Error in the MATLAB command window and save the post-processed result ```HPE.mat``` in the current directory.
 
-- Run ```visualization.m```, which will visually present six poses: ```Walking```, ```Pointing```, ```Hands up```, ```Hands open```, ```Sitting down```, and ```Standing```. In addition, we provide the specific poses corresponding to each test sample in ```real_pose``` $\rightarrow$ ```real_pose.mat```. Users can adjust the index in the visualization.m to check whether the predicted results successfully achieve pose estimation.
+- Run ```visualization.m```, which will visually present six poses: ```Walking```, ```Pointing```, ```Hands up```, ```Hands open```, ```Sitting down```, and ```Standing```. In addition, we provide the specific poses corresponding to each test sample in ```real_pose``` $\rightarrow$ ```real_pose.mat```. Users can adjust the index in the ```visualization.m``` to check whether the predicted results successfully achieve pose estimation.
         
 
 
